@@ -24,7 +24,7 @@ function Main() {
                 </div>
 
                 <div className='bg-cyan-400 sm:mx-auto'>
-                    <img className='w-60 h-60 md:w-80 md:h-80 ' src={portfolioImage} />
+                    <img className='w-60 h-60 md:w-80 md:h-80 ' src={portfolioImage}  alt="avatar"/>
                 </div>
 
             </div>
