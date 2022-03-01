@@ -4,8 +4,8 @@ import { Link, Outlet } from "react-router-dom";
 function Header() {
 
     return (
-        <div class="">
-            <div className="bg-cyan-400 flex py-20   ">
+        <div className="">
+            <div className=" flex shadow-md w-full fixed top-0 left-0 p-5 ">
                 <h2 className="  font-bold pl-5 pt-4 justify-center lg:text-4xl "> PORTFOLIO</h2>
             
             <div className="  pl-9  pt-5">
@@ -24,7 +24,7 @@ function Header() {
 
 
             <div className=" grid grid-cols-1 gap-4 sm:hidden md:block lg:block  mx-auto" >
-    <nav >
+    
         <ul className="flex text-white font-bold space-x-2  md:pt-4  pl-52  ">
             
             <li className="  rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700   flex  text-justify">
@@ -45,9 +45,9 @@ function Header() {
                 <Link to="/contact">Contact</Link>
             </li>
         </ul>
-    </nav>
-
-    <Outlet />
+    
+        <Outlet/>
+    
 
 </div>
             </div>
@@ -55,6 +55,7 @@ function Header() {
 
         </div>
 
+        
     )
 }
 

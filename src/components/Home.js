@@ -3,9 +3,13 @@ import Main from '../Pages/Main';
 
 function Home() {
     return (
-        <div>
-            <Main/>         
+        <div className='bg-cyan-400 w-full h-screen '>
+
+            <Main />
         </div>
+
+
+
 
     )
 }
