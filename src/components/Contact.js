@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./Header";
+
 function Contact(){
     return (
         <div className="w-screen h-screen blue-gradient-background gradient-background-animated  lg:pt-5">
