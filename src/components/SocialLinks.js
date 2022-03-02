@@ -5,10 +5,10 @@ function SocialLinks({ alignment = 'start' }) {
         <div className={`flex mt-3 justify-center lg:justify-${alignment}`}>
             <div className="justify-start hidden"></div>
             <div className="justify-center hidden"></div>
-            <a href="https://github.com/Mkumar0802/" target="_blank" rel="noopener" className="mr-3 text-3xl md:text-5xl">
+            <a href="https://github.com/Mkumar0802/"  rel="noopener" className="mr-3 text-3xl md:text-5xl">
                 <ion-icon name="logo-github"></ion-icon>
             </a>
-            <a href="linkedin.com/in/muthu-kumar-k-1011453a/" target="_blank" rel="noopener" className="mr-3 text-3xl md:text-5xl">
+            <a href="linkedin.com/in/muthu-kumar-k-1011453a/"  rel="noopener" className="mr-3 text-3xl md:text-5xl">
                 <ion-icon name="logo-linkedin"></ion-icon>
             </a>
 
