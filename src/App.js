@@ -10,7 +10,8 @@ import Skill from './components/Skill';
 import Navbar from './components/Navbar.js';
 
 function App() {
-  return ( <>
+  return (
+     <>
     <BrowserRouter>
       <Navbar/>
       <Routes>
