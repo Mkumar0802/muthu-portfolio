@@ -8,6 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
 import Navbar from './components/Navbar.js';
+// import Footer from './Pages/Footer';
 
 function App() {
   return (

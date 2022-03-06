@@ -29,10 +29,10 @@ const Navbar = () => {
                 
             </li>
             <li className=" rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700">
-                <Link to="/about">About</Link>
+                <Link to="/skill">Skill</Link>
             </li>
             <li className=" rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700">
-                <Link to="/skill">Skill</Link>
+                <Link to="/about">About</Link>
             </li>
 
             <li className=" rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700 ">

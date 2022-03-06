@@ -1,61 +1,92 @@
 import React from "react";
 import card1 from "../assets/guvi.webp";
+import Logo1 from "../assets/st.png"
+import Logo from "../assets/collegelogo.png"
+import Heading from "./Heading";
 
 function About() {
     return (
-        <div className="w-screen h-screen blue-gradient-background gradient-background-animated  lg:pt-10">
-            <div className="w-full h-4/6 lg:h-5/6 flex flex-col-reverse lg:flex-row justify-center">
-                <div className="flex justify-around items-center   flex-col-reverse lg:flex-row ">
+<div className=" ">
+        <div className="my-28 flex justify-evenly items-center flex-col
+        scroll-mt-20">
+            <Heading title="Education" />
+            <div className="w-screen h-screen blue-gradient-background gradient-background-animated  lg:pt-10">
+                <div className=" flex p-28   md:    lg:h-5/6 md:flex flex-col-reverse lg:flex-row justify-center">
+                    <div className="flex justify-around items-center   flex-col lg:flex-row ">
+                        <div class="flex justify-center py-8 md:px-5">
+                            <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
+                                <a href="https://www.guvi.in/" target="_blank" rel="noreferrer">
+                                    <img class="rounded-t-lg pl-4 h-20 w-20" src={card1} alt="" />
+                                </a>
+                                <div class="p-6 ">
+                                    <h5 class="text-gray-900 text-2xl font-medium mb-2 "> Guvi Geek Network Private Ltd,Chennai</h5>
 
-                    <div class="max-w-sm grid grid-cols-2 text-white hover:animate-fade-out-down bg-teal-600 rounded-lg border border-gray-400   shadow-2xl ">
+                                    <p class="text-gray-700 text-base mb-4">
+                                        Mern Stack Development
+                                    </p>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        From June 2021 To Till Now
+                                    </p>
 
-                        <img class="rounded-t-lg  " src={card1} alt="guvi logo" />
 
-                        <div class="p-5">
 
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight ">Guvi Geek Network Private Ltd,Chennai</h5>
-
-                            <p class="mb-3 font-normal ">Mern Stack Development</p>
-                            <p class="mb-3 font-normal ">From June 2021 To Till Now</p>
-
+                                </div>
+                            </div>
                         </div>
-                    </div>
 
 
-                    <div class="max-w-sm grid grid-cols-2 gap-5 m-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-700 dark:border-gray-800">
+                        <div class="flex justify-center py-8 md:px-5">
+                            <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400">
+                                <a href="https://www.mookambigai.ac.in/" target="_blank" rel="noreferrer">
+                                    <img class="rounded-t-lg pl-2 h-20 w-20" src={Logo} alt="" />
+                                </a>
+                                <div class="p-6">
+                                    <h5 class="text-gray-900 text-2xl font-medium mb-2 ">Mookambigai College Of Engineering</h5>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        BE Electrial Electronics Engineering
+                                    </p>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        From   June  2014 To  Apr 2017
+                                    </p>
 
-                        <img class="rounded-t-lg" src={card1} alt="" />
 
-                        <div class="p-5">
-
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Guvi Geek Network Private Ltd,Chennai</h5>
-
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mern Stack Development</p>
-
+                                </div>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="max-w-sm grid grid-cols-2 gap-5 m-10 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-700 dark:border-gray-800">
 
-                        <img class="rounded-t-lg" src={card1} alt="" />
 
-                        <div class="p-5">
+                        <div class="flex justify-center py-8 md:px-5">
+                            <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
+                                <a href="http://stmaryshrsecschool.org/" target="_blank" rel="noreferrer">
+                                    <img class="rounded-t-lg pl-2 h-20 w-20 pt-2" src={Logo1} alt="" />
+                                </a>
+                                <div class="p-6">
+                                    <h5 class="text-gray-900 text-2xl font-medium mb-2">St Mary's Boys Higher Secondary School </h5>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        SSLC    
+                                    </p>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        From   June  2010 To  Apr 2011
+                                    </p>
 
-                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Guvi Geek Network Private Ltd,Chennai</h5>
 
-                            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Mern Stack Development</p>
-
+                                </div>
+                            </div>
                         </div>
-                    </div>
 
+
+                    </div>
                 </div>
             </div>
         </div>
-
+        </div>
 
     )
 }
 
 export default About;
+
+
 
 

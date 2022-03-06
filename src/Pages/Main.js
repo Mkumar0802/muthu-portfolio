@@ -13,7 +13,7 @@ function Main() {
                             <h1 className="text-4xl md:text-5xl lg:text-7xl">Muthu Kumar.K</h1>
                             <Typewriter
                                 options={{
-                                    strings: ['Full-stack Developer'],
+                                    strings: ['Full-stack Developer','Mern-stack Developer'],
                                     autoStart: true,
                                     loop: true,
                                     wrapperClassName: 'text-md md:text-2xl lg:text-3xl font-mono',
