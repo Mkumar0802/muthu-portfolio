@@ -4,60 +4,84 @@ import { Link, Outlet } from "react-router-dom";
 function Header() {
 
     return (
-        <div className="">
-            <div className=" flex shadow-md w-full fixed top-0 left-0 p-5 ">
-                <h2 className="  font-bold pl-5 pt-4 justify-center lg:text-4xl "> PORTFOLIO</h2>
-            
-            <div className="  pl-9  pt-5">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-                </svg>
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                </svg>
+        <div className=" ">
+        <div className="my-28 flex justify-evenly items-center  scroll-mt-20">
+            <Heading title="Education" />
+            <div className="w-screen h-screen blue-gradient-background gradient-background-animated  lg:pt-10">
+                <div className=" flex p-28   md:    lg:h-5/6   justify-center">
+                    <div className="flex justify-around items-center">
+                        <div class="flex justify-center py-8 md:px-5">
+                            <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
+                                <a href="https://www.guvi.in/" target="_blank" rel="noreferrer">
+                                    <img class="rounded-t-lg pl-4 h-20 w-20" src={card1} alt="" />
+                                </a>
+                                <div class="p-6 ">
+                                    <h5 class="text-gray-900 text-2xl font-medium mb-2 "> Guvi Geek Network Private Ltd,Chennai</h5>
+
+                                    <p class="text-gray-700 text-base mb-4">
+                                        Mern Stack Development
+                                    </p>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        From June 2021 To Till Now
+                                    </p>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="flex justify-center py-8 md:px-5">
+                            <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400">
+                                <a href="https://www.mookambigai.ac.in/" target="_blank" rel="noreferrer">
+                                    <img class="rounded-t-lg pl-2 h-20 w-20" src={Logo} alt="" />
+                                </a>
+                                <div class="p-6">
+                                    <h5 class="text-gray-900 text-2xl font-medium mb-2 ">Mookambigai College Of Engineering</h5>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        BE Electrial Electronics Engineering
+                                    </p>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        From   June  2014 To  Apr 2017
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="flex justify-center py-8 md:px-5">
+                            <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
+                                <a href="http://stmaryshrsecschool.org/" target="_blank" rel="noreferrer">
+                                    <img class="rounded-t-lg pl-2 h-20 w-20 pt-2" src={Logo1} alt="" />
+                                </a>
+                                <div class="p-6">
+                                    <h5 class="text-gray-900 text-2xl font-medium mb-2">St Mary's Boys Higher Secondary School </h5>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        SSLC    
+                                    </p>
+                                    <p class="text-gray-700 text-base mb-4">
+                                        From   June  2010 To  Apr 2011
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-            <div className=" font-bold pt-5 ml-1 ">
-                <h3 className="" >+91 9566420177</h3>
-                <h3 className="">mkumar0802@gmail.com</h3>
-            </div>
-
-
-
-            <div className=" grid grid-cols-1 gap-4 sm:hidden md:block lg:block  mx-auto" >
-    
-        <ul className="flex text-white font-bold space-x-2  md:pt-4  pl-52  ">
-            
-            <li className="  rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700   flex  text-justify">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-</svg>
-                <Link to="/">Home </Link>
-                
-            </li>
-            <li className=" rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700">
-                <Link to="/skill">Skill</Link>
-            </li>
-            <li className=" rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700">
-                <Link to="/about">About</Link>
-            </li>
-
-            <li className=" rounded-lg px-4 py-2  bg-teal-600 hover:bg-teal-700 ">
-                <Link to="/contact">Contact</Link>
-            </li>
-        </ul>
-    
-        <Outlet/>
-    
-
-</div>
-            </div>
-            
-
+        </div>
         </div>
 
-        
     )
 }
+
 
 
 export default Header;

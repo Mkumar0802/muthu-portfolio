@@ -19,7 +19,7 @@ import Heading from './Heading'
 
 function Skill() {
   return (
-    <div className="my-28 flex justify-evenly items-center flex-col scroll-mt-20 relative">
+    <div className="my-28 flex justify-evenly items-center flex-col scroll-mt-20 ">
             <Heading title="Skills"/>
     <div className="w-screen h-screen blue-gradient-background gradient-background-animated  lg:pt-5">
       <div className="w-full h-4/6 lg:h-5/6 flex flex-col-reverse lg:flex-row justify-center">

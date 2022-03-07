@@ -4,8 +4,7 @@ import Heading from "./Heading";
 function Contact() {
     return (
         <div className=" ">
-        <div className="my-28 flex justify-evenly items-center flex-col
-        scroll-mt-20">
+        <div className= "my-28 flex justify-evenly items-center flex-col scroll-mt-20 ">
             <Heading title="Hire me" />
             <div class=" flex items-top justify-center min-h-screen bg-white  sm:items-center sm:pt-0">
                 <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
@@ -34,7 +33,7 @@ function Contact() {
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                                     </svg>
                                     <div class="ml-4 text-md tracking-wide font-semibold w-40">
-                                        23,Kamarajapuram 17th Street,Pudukkottai,Tamil Nadu,
+                                       Pudukkottai,Tamil Nadu,
                                         622001
                                     </div>
                                 </div>
@@ -49,7 +48,7 @@ function Contact() {
                                 </div>
 
                                 <div class="flex items-center mt-2 text-gray-600 ">
-                                    <div className="text-xl md:text-3xl">
+                                    <div className="text-3xl md:text-3xl">
                                         <ion-icon name="logo-github"></ion-icon>
                                     </div>
                                     <div class="ml-4 text-md tracking-wide font-semibold w-40">
@@ -77,27 +76,28 @@ function Contact() {
                             <form class="p-6 flex flex-col justify-center">
                                 <div class="flex flex-col">
                                     <label for="name" class="hidden">Full Name</label>
-                                    <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-indigo-500 focus:outline-none" />
+                                    <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                     <label for="email" class="hidden">Email</label>
-                                    <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-indigo-500 focus:outline-none" />
+                                    <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                     <label for="number" class="hidden">Number</label>
-                                    <input type="number" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-indigo-500 focus:outline-none" />
+                                    <input type="number" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                 <label for="message" class="hidden">Your message</label>
-                                <textarea id="message" rows="4" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-indigo-500 focus:outline-none"/>
+                                <textarea id="message" rows="4" placeholder="Your message" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none"/>
                                 </div>
-
-                                <button type="submit" class="md:w-32 bg-indigo-600 hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-indigo-500 transition ease-in-out duration-300">
+                                  <div className=" md:pl-16 sm: pl-16    ">
+                                <button type="submit" class=" bg-teal-700  text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-teal-800 transition ease-in-out duration-300">
                                     Submit
                                 </button>
+                                </div>
                             </form>
                         </div>
                     </div>
