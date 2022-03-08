@@ -10,7 +10,7 @@ function Footer() {
                 <h2 className="text-3xl md:text-5xl mb-3">Want to connect?</h2>
                 <div className="my-5 md:text-xl ">
                     <p>
-                        Drop me an email at<a href="https://mkumar0802@gmail.com" target="_blank" rel="noreferrer"> <span className="underline underline-offset-4">mkumar0802@gmail.com</span></a> and let's talk some more!
+                        Drop me an email at<a href="mailto:https://mkumar0802@gmail.com" target="_blank" rel="noreferrer"> <span className="underline underline-offset-4">mkumar0802@gmail.com</span></a> and let's talk some more!
                     </p>
                     <p>
                         You can also find me on social media, where we can talk and discuss development some more!

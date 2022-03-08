@@ -8,11 +8,11 @@ const Navbar = () => {
     <div className='shadow-md w-full fixed top-0 left-0'>
       <div className='md:flex items-center justify-between bg-cyan-400   py-4 md:px-10 px-7'>
       <div className='font-bold text-2xl cursor-pointer flex items-center font-[Poppins] 
-      text-black'>
-        <span className='text-3xl mr-1 pt-2'>
-        
-        </span>
-         PORTFOLIO
+      '>
+        <span className='text-3xl mr-1 pt-2 text-white'>
+        PORTFOLIO
+        </span >
+         
       </div>
       
       <div onClick={()=>setOpen(!open)} className='text-3xl absolute right-8 top-6 cursor-pointer md:hidden'>
