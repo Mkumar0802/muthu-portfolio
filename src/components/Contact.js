@@ -1,7 +1,27 @@
-import React from "react";
+import React,{ useRef }  from "react";
 import Heading from "./Heading";
 
+import emailjs from '@emailjs/browser';
+
+
+
 function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_cpr9keh', 'template_pbl3m3f', form.current,'u3pa4A2L8sZUtMsld')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+
+
+
+
     return (
         <div className=" ">
         <div className= "my-28 flex justify-evenly items-center flex-col scroll-mt-20 ">
@@ -73,28 +93,28 @@ function Contact() {
 
                             </div>
 
-                            <form class="p-6 flex flex-col justify-center">
+                            <form class="p-6 flex flex-col justify-center" ref={form} onSubmit={sendEmail}>
                                 <div class="flex flex-col">
-                                    <label for="name" class="hidden">Full Name</label>
-                                    <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
+                                    <label for="user_name" class="hidden">Full Name</label>
+                                    <input type="text" name="user_name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
-                                    <label for="email" class="hidden">Email</label>
-                                    <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
+                                    <label class="hidden">Email</label>
+                                    <input type="email" name="user_email"   placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                     <label for="number" class="hidden">Number</label>
-                                    <input type="number" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
+                                    <input type="number" name="number" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                 <label for="message" class="hidden">Your message</label>
-                                <textarea id="message" rows="4" placeholder="Your message" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none"/>
+                                <textarea id="message"  name="message"   rows="4" placeholder="Your message" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none"/>
                                 </div>
                                   <div className=" md:pl-16 sm: pl-16    ">
-                                <button type="submit" class=" bg-teal-700  text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-teal-800 transition ease-in-out duration-300">
+                                <button type="submit" value="Send" class=" bg-teal-700  text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-teal-800 transition ease-in-out duration-300">
                                     Submit
                                 </button>
                                 </div>

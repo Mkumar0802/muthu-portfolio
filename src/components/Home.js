@@ -11,8 +11,7 @@ function Home() {
         <div className='bg-cyan-400 w-full h-screen '>
             <div>
                 <Main />
-                <Skill/>
-               
+                <Skill/> 
                 <About/>
                 <Contact/> 
                 <Footer/> 
