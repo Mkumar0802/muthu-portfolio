@@ -8,7 +8,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Skill from './components/Skill';
 import Navbar from './components/Navbar.js';
-// import Footer from './Pages/Footer';
+ import Project  from './components/Project.js'
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
           <Route path="skill" element={<Skill />} />
-        
+          <Route path="project" element={<Project />} />
       </Routes>
      
     </BrowserRouter>
