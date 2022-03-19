@@ -1,6 +1,6 @@
 import React,{ useRef }  from "react";
 import Heading from "./Heading";
-
+import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
 
 
@@ -19,7 +19,17 @@ function Contact() {
         });
     };
 
+    const addRecord = () => {
 
+       
+    Swal.fire({
+        icon: 'success',
+        title: 'Your message has been send !!!',
+        text: ' Kindly wait for response.',
+        showConfirmButton: false,
+        timer: 3000
+      })
+ }
 
 
     return (
@@ -95,26 +105,26 @@ function Contact() {
 
                             <form class="p-6 flex flex-col justify-center" ref={form} onSubmit={sendEmail}>
                                 <div class="flex flex-col">
-                                    <label for="user_name" class="hidden">Full Name</label>
-                                    <input type="text" name="user_name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
+                                    <label for="name" class="hidden">Full Name</label>
+                                    <input type="text" name="name"  placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none required:" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                     <label class="hidden">Email</label>
-                                    <input type="email" name="user_email"   placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
+                                    <input type="email" name="email"   placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none required" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                     <label for="number" class="hidden">Number</label>
-                                    <input type="number" name="number" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none" />
+                                    <input type="number" name="number" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none required:" />
                                 </div>
 
                                 <div class="flex flex-col mt-2">
                                 <label for="message" class="hidden">Your message</label>
-                                <textarea id="message"  name="message"   rows="4" placeholder="Your message" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none"/>
+                                <textarea id="message"  name="message"   rows="4" placeholder="Your message" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400   font-semibold focus:border-cyan-500 focus:outline-none required:"/>
                                 </div>
                                   <div className=" md:pl-16 sm: pl-16    ">
-                                <button type="submit" value="Send" class=" bg-teal-700  text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-teal-800 transition ease-in-out duration-300">
+                                <button type="submit" value="Send" class=" bg-teal-700  text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-teal-800 transition ease-in-out duration-300" onClick={addRecord}>
                                     Submit
                                 </button>
                                 </div>

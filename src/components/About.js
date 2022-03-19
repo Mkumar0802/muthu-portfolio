@@ -11,8 +11,8 @@ function About() {
 
                 <Heading title="Education" />
             </div>
-            <div className="flex justify-around items-center flex-col md:flex-row ">
-                <div class="flex justify-center  py-8 md:px-5">
+            <div className="flex justify-around items-center flex-col md:flex-row  ">
+                <div class="flex justify-center  py-8 md:px-5 hover:animate-iron">
                     <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
                         <a href="https://www.guvi.in/" target="_blank" rel="noreferrer">
                             <img class="rounded-t-lg pl-4 h-20 w-20" src={card1} alt="" />
@@ -34,7 +34,7 @@ function About() {
                 </div>
 
 
-                <div class="flex justify-center py-8 md:px-5">
+                <div class="flex justify-center py-8 md:px-5 hover:animate-iron">
                     <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400">
                         <a href="https://www.mookambigai.ac.in/" target="_blank" rel="noreferrer">
                             <img class="rounded-t-lg pl-2 h-20 w-20" src={Logo} alt="" />
@@ -52,7 +52,7 @@ function About() {
                         </div>
                     </div>
                 </div>
-                <div class="flex justify-center py-8 md:px-5">
+                <div class="flex justify-center py-8 md:px-5  hover:animate-iron">
                     <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
                         <a href="http://stmaryshrsecschool.org/" target="_blank" rel="noreferrer">
                             <img class="rounded-t-lg pl-2 h-20 w-20 pt-2" src={Logo1} alt="" />
