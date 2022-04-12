@@ -25,6 +25,9 @@ function Footer() {
                 <p>
                     Using React,Tailwind CSS
                 </p>
+                <p>
+                     Copyright @{(new Date().getFullYear())}
+                </p>
             </div>
         </div>
     )
