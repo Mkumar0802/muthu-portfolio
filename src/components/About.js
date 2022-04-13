@@ -3,10 +3,33 @@ import card1 from "../assets/guvi.webp";
 import Logo1 from "../assets/st.png"
 import Logo from "../assets/collegelogo.png"
 import Heading from "./Heading";
+import working from "../assets/working1.jpg"
 
 function About() {
     return (
-        <div className=" ">
+        <div className="my-12 flex justify-evenly items-center flex-col scroll-mt-20 ">
+            <div className="my-6 flex justify-evenly items-center flex-col scroll-mt-20">
+                <Heading title="About Me" />
+            </div>
+            <div className=" ">
+                <div className="flex justify-around items-center flex-col md:flex-row ">
+                    <div className=" w-11/12   md:w-4/12  md:h-5/12    ">
+                        <div className="    ">
+                            <img src={working} alt="work" />
+                        </div>
+
+                    </div>
+                    <div className="my-56">
+                        <p className="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 py-12 px-12  md:text-2xl  text-xl  font-serif">
+                            I describe myself as someone persistent, and a quick learner by using simple and scalable solutions. I enjoy creating user experience design, interfaces, web development, and mobile responsive.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
             <div className="my-28 flex justify-evenly items-center flex-col scroll-mt-20">
 
                 <Heading title="Education" />

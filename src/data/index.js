@@ -42,7 +42,26 @@ const projects = [
         ],
     },
 
+    {
+        title: "Simple crud ",
+        built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
+        image: "simple",
 
+
+        url: {
+            live: "https://endearing-pegasus-a075b7.netlify.app",
+            frontend: "https://github.com/Mkumar0802/mern-client",
+            backend: "https://github.com/Mkumar0802/Mern_crud_server",
+        },
+
+        demoCredential: [
+            {
+                email: "userdemo@gmail.com",
+                password: "12345",
+            }
+
+        ],
+    },
 
 
 ]

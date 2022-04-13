@@ -13,10 +13,12 @@ import express from "../assets/express.png"
 import tailwindcss from "../assets/tailwind.png"
 import foodapp from "../assets/fooapp.png"
 import ticketbooking from "../assets/ticketbooking.png"
+import simple from "../assets/simple.png"
 
 const assertMap = {
     food_ordering: foodapp,
     booking_system:ticketbooking,
+    simple: simple,
     html,
     css,
     js,
@@ -62,7 +64,7 @@ const ProjectCard = ({ project }) => {
                 </div>
             </div>
             <div className="flex flex-col justify-evenly gap-4 max-w-sm">
-                <h2 className="text-2xl text-black">{title}</h2>
+                <h2 className="text-2xl text-black font-mono ">{title}</h2>
 
                 <p className="max-w-[45ch] text-justify">{desc}</p>
                 {/* <h3>Built Using</h3> */}

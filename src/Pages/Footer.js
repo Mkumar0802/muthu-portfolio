@@ -26,7 +26,7 @@ function Footer() {
                     Using React,Tailwind CSS
                 </p>
                 <p>
-                     Copyright @{(new Date().getFullYear())}
+                    All right reserved@{(new Date().getFullYear())}
                 </p>
             </div>
         </div>
