@@ -28,7 +28,7 @@ function Skill() {
 
         <div className=' flex space-x-10 md:space-x-48 justify-center'>
           <div>
-            <div className='px-4'>
+            <div className='px-3'>
               <h1 className='text-2xl  font-mono '>
                 Frontend
               </h1>
