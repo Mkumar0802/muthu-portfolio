@@ -24,9 +24,9 @@ function Skill() {
 
       <div  className='py-12'>
 
+  
 
-
-        <div className=' flex  space-x-48 justify-center'>
+        <div className=' flex space-x-10 md:space-x-48 justify-center'>
           <div>
             <div className='px-4'>
               <h1 className='text-2xl  font-mono '>

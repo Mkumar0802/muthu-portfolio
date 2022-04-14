@@ -9,10 +9,10 @@ const Navbar = () => {
       <div className='md:flex items-center justify-between bg-cyan-400    md:px-10 px-7 '>
         <div className='font-bold text-2xl cursor-pointer    items-center font-[Poppins] '>
           <div className='flex flex-col'>
-            <span className='text-3xl mr-1 pt-2 text-white'>
+            <span className='text-xl   md:text-3xl mr-1 pt-2 text-white'>
               mkumar0802@gmail.com
             </span >
-            <span className='text-3xl mr-1 pt-2 text-white'>
+            <span className='text-xl   md:text-3xl mr-1 pt-2 text-white'>
               9566420177
             </span >
           </div>
