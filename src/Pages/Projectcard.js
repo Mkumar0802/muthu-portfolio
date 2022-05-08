@@ -1,4 +1,4 @@
-
+import React, { useEffect } from "react";
 import html from "../assets/html.png"
 import css from "../assets/css.png"
 import js from "../assets/js.png"
@@ -14,6 +14,9 @@ import tailwindcss from "../assets/tailwind.png"
 import foodapp from "../assets/fooapp.png"
 import ticketbooking from "../assets/ticketbooking.png"
 import simple from "../assets/simple.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 const assertMap = {
     food_ordering: foodapp,
@@ -33,6 +36,12 @@ const assertMap = {
 
 
 const Button = ({ link, children }) => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, [])
+
+
     return (
         <a
             className=" text-white  px-4 py-2 bg-teal-600 hover:bg-teal-700  transition-dark 
@@ -53,8 +62,8 @@ const ProjectCard = ({ project }) => {
     return (
 
 
-        <div className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit">
-            <div className="p-4 group transition-dark bg-slate-200  rounded-lg ">
+        <div    className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit">
+            <div data-aos="fade-left" className="p-4 group transition-dark bg-slate-200  rounded-lg ">
                 <div className="overflow-hidden rounded-lg shadow-lg">
                     <img
                         src={assertMap[image]}
@@ -63,7 +72,7 @@ const ProjectCard = ({ project }) => {
                     />
                 </div>
             </div>
-            <div className="flex flex-col justify-evenly gap-4 max-w-sm">
+            <div data-aos="fade-right"   className="flex flex-col justify-evenly gap-4 max-w-sm">
                 <h2 className="text-2xl text-black font-mono ">{title}</h2>
 
                 <p className="max-w-[45ch] text-justify">{desc}</p>

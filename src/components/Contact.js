@@ -1,11 +1,14 @@
-import React,{ useRef }  from "react";
+import React,{ useRef,useEffect }  from "react";
 import Heading from "./Heading";
 import Swal from 'sweetalert2';
 import emailjs from '@emailjs/browser';
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 function Contact() {
+
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -18,6 +21,12 @@ function Contact() {
             console.log(error.text);
         });
     };
+
+    
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+      }, [])
+
 
     const addRecord = () => {
 
@@ -37,7 +46,7 @@ function Contact() {
         <div className= "my-28 flex justify-evenly items-center flex-col scroll-mt-20 ">
             <Heading title="Hire me" />
             <div class=" flex items-top justify-center min-h-screen bg-white  sm:items-center sm:pt-0">
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+                <div data-aos="flip-left" class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                     <div class="mt-8 overflow-hidden">
                         <div class="grid grid-cols-1 md:grid-cols-2">
                             <div class="p-6 mr-2 rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400  sm:rounded-lg">
