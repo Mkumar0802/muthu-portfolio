@@ -47,10 +47,10 @@ function Skill() {
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300     w-12 h-12    md:flex-col md:w-20 md:h-20 '>
                 <img src={css} alt="css" />
               </div>
-              <div className='grid-rows grid-flow-col  bg-white hover:bg-slate-300     md:flex-col md:w-20 md:h-20'>
+              <div className='grid-rows grid-flow-col  bg-white hover:bg-slate-300  w-12 h-12    md:flex-col md:w-20 md:h-20'>
                 <img src={js} alt="js" />
               </div>
-              <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300    md:flex-col md:w-20 md:h-20'>
+              <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300  w-12 h-12   md:flex-col md:w-20 md:h-20'>
                 <img src={boot} alt="boot" />
               </div>
 
