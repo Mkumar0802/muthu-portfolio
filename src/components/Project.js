@@ -3,7 +3,6 @@ import {projects} from '../data'
 import ProjectCard from '../Pages/Projectcard';
 import Heading from './Heading';
 
-
 function Projects() {
     
 

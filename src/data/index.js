@@ -42,6 +42,32 @@ const projects = [
         ],
     },
 
+
+{
+
+    title: "Hotel Booking",
+        built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
+        image: "hotel",
+
+
+        url: {
+            live: "https://glowing-kheer-2222f9.netlify.app/",
+            frontend: "https://github.com/Mkumar0802/Hotel_booking_client",
+            backend: "https://github.com/Mkumar0802/hotel_booking_server",
+        },
+
+        demoCredential: [
+            {
+                email: "userdemo@gmail.com",
+                password: "12345",
+            }
+
+        ],
+},
+
+
+
+
     {
         title: "Simple crud ",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],

@@ -14,6 +14,7 @@ import tailwindcss from "../assets/tailwind.png"
 import foodapp from "../assets/fooapp.png"
 import ticketbooking from "../assets/ticketbooking.png"
 import simple from "../assets/simple.png"
+import  hotel from "../assets/hotel.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -22,6 +23,7 @@ const assertMap = {
     food_ordering: foodapp,
     booking_system:ticketbooking,
     simple: simple,
+    hotel:hotel,
     html,
     css,
     js,
