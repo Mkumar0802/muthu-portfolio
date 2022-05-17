@@ -67,6 +67,10 @@ const ProjectCard = ({ project }) => {
 
 
         <div    className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit static">
+
+
+
+
             <div data-aos="fade-left" className="p-4 group transition-dark bg-slate-200  rounded-lg ">
                 <div className="overflow-hidden rounded-lg shadow-lg relative">
                     <img
