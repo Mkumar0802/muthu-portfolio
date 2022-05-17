@@ -17,7 +17,7 @@ function About() {
 
 
     return (
-        <div className="my-20 flex justify-evenly items-center flex-col scroll-mt-20 ">
+        <div className="my-20 flex justify-evenly items-center flex-col scroll-mt-20 static ">
             <div className="my-6 flex justify-evenly items-center flex-col scroll-mt-20">
                 <Heading title="About Me" />
             </div>

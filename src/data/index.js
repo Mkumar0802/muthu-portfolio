@@ -64,6 +64,29 @@ const projects = [
 
         ],
 },
+{
+
+    title: "Ecommerce Website",
+        built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
+        image: "shop",
+
+
+        url: {
+            live: "https://adorable-fudge-1b9038.netlify.app/",
+            frontend: "https://github.com/Mkumar0802/ecommerce_client/",
+            backend: "https://github.com/Mkumar0802/ecommerce_server/",
+        },
+
+        demoCredential: [
+            {
+                email: "userdemo@gmail.com",
+                password: "12345",
+            }
+
+        ],
+},
+
+
 
 
 

@@ -2,9 +2,11 @@ import React from 'react'
 
 function SocialLinks({ alignment = 'start' }) {
     return (
-        <div className={`flex  justify-center lg:justify-${alignment}`}>
-            <div className="justify-start hidden"></div>
-            <div className="justify-center hidden"></div>
+        <div className='static '>
+
+        
+        <div className={`flex   justify-center lg:justify-${alignment}`}>
+            
             <a href="https://github.com/Mkumar0802/" target="_blank" rel="noreferrer" className="mr-3 text-3xl md:text-5xl">
                 <ion-icon name="logo-github"></ion-icon>
             </a>
@@ -26,7 +28,7 @@ function SocialLinks({ alignment = 'start' }) {
 
             </div>
 
-
+            </div>
         </div>
     )
 }

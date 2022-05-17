@@ -15,6 +15,7 @@ import foodapp from "../assets/fooapp.png"
 import ticketbooking from "../assets/ticketbooking.png"
 import simple from "../assets/simple.png"
 import  hotel from "../assets/hotel.png"
+import shop from "../assets/shop.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -24,6 +25,7 @@ const assertMap = {
     booking_system:ticketbooking,
     simple: simple,
     hotel:hotel,
+    shop:shop,
     html,
     css,
     js,
@@ -64,12 +66,12 @@ const ProjectCard = ({ project }) => {
     return (
 
 
-        <div    className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit">
+        <div    className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit static">
             <div data-aos="fade-left" className="p-4 group transition-dark bg-slate-200  rounded-lg ">
-                <div className="overflow-hidden rounded-lg shadow-lg">
+                <div className="overflow-hidden rounded-lg shadow-lg relative">
                     <img
                         src={assertMap[image]}
-                        className="transition-transform duration-1000 transform group-hover:scale-150 w-96"
+                        className="transition-transform duration-1000 transform group-hover:scale-150 w-96  "
                         alt=""
                     />
                 </div>
