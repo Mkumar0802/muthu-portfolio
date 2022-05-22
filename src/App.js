@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Skill from './components/Skill';
 import Navbar from './components/Navbar.js';
  import Project  from './components/Project.js'
+//  import Header from './components/Header';
 
 function App() {
   return (
