@@ -66,12 +66,12 @@ const ProjectCard = ({ project }) => {
     return (
 
 
-        <div    className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit static">
+        <div  data-aos="fade-up"   className="flex gap-4 my-10 justify-center md:items-start items-center md:flex-row flex-col w-fit static">
 
 
 
 
-            <div data-aos="fade-left" className="p-4 group transition-dark bg-slate-200  rounded-lg ">
+            <div className="p-4 group transition-dark bg-slate-200  rounded-lg ">
                 <div className="overflow-hidden rounded-lg shadow-lg relative">
                     <img
                         src={assertMap[image]}
@@ -80,7 +80,7 @@ const ProjectCard = ({ project }) => {
                     />
                 </div>
             </div>
-            <div data-aos="fade-right"   className="flex flex-col justify-evenly gap-4 max-w-sm">
+            <div   className="flex flex-col justify-evenly gap-4 max-w-sm">
                 <h2 className="text-2xl text-black font-mono ">{title}</h2>
 
                 <p className="max-w-[45ch] text-justify">{desc}</p>
