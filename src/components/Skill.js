@@ -31,8 +31,8 @@ function Skill() {
 
 
 
-        <div className=' flex space-x-10 md:space-x-48 justify-center'>
-          <div data-aos="fade-right" >
+        <div data-aos="fade-up"  className=' flex space-x-10 md:space-x-48 justify-center'>
+          <div  >
             <div className='px-3'>
               <h1 className='text-2xl  font-mono '>
                 Frontend
@@ -66,7 +66,7 @@ function Skill() {
 
 
 
-          <div data-aos="fade-left"   >
+          <div >
             <div >
               <h1 className='text-2xl  font-mono '>Backend</h1>
             </div>
