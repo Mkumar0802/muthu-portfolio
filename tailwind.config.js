@@ -1,4 +1,9 @@
-module.exports = {
+const AnimateCss = require('animated-tailwindcss')
+
+
+
+module.exports = AnimateCss(
+  {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
@@ -52,5 +57,5 @@ module.exports = {
 
 }
 
-
+)
 
