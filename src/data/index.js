@@ -45,15 +45,15 @@ const projects = [
 
 {
 
-    title: "Hotel Booking",
+    title: "Blogger",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
-        image: "hotel",
+        image: "blog",
 
 
         url: {
-            live: "https://glowing-kheer-2222f9.netlify.app/",
-            frontend: "https://github.com/Mkumar0802/Hotel_booking_client",
-            backend: "https://github.com/Mkumar0802/hotel_booking_server",
+            live: "https://jolly-kringle-2d296e.netlify.app/",
+            frontend: "https://github.com/Mkumar0802/Blogger",
+            backend: "https://github.com/Mkumar0802/Blogger_backend",
         },
 
         demoCredential: [
