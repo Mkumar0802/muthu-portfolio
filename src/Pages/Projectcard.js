@@ -84,7 +84,7 @@ const ProjectCard = ({ project }) => {
             <div   className="flex flex-col justify-evenly gap-4 max-w-sm">
                 <h2 className="text-2xl text-black font-mono ">{title}</h2>
 
-                <p className="max-w-[45ch] text-justify">{desc}</p>
+                <p className="max-w-[45ch] p-2 md:p-0 text-justify">{desc}</p>
                 {/* <h3>Built Using</h3> */}
                 <div className="flex gap-4 flex-wrap items-center">
                     {built.map((tech, index) => (
