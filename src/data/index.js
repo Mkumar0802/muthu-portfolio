@@ -2,6 +2,7 @@ const projects = [
 
     {
         title: "Movie Ticket booking",
+        desc: "To book ticket.Integrated with Razorpay For Payment and user authentication ",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
         image: "booking_system",
 
@@ -23,6 +24,7 @@ const projects = [
 
     {
         title: "Food Ordering",
+        desc:"User authentication using redux.Integrated with Razorpay For Payment UI are made Tailwindcss ",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
         image: "food_ordering",
 
@@ -47,7 +49,9 @@ const projects = [
 
     title: "Blogger",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
+        desc:"It's a Blog Application that provides the user the accessibility to perform CRUD operations on blogs,if the user has been authenticated .",
         image: "blog",
+       
 
 
         url: {
@@ -66,15 +70,16 @@ const projects = [
 },
 {
 
-    title: "Ecommerce Website",
+    title: "Job Portal",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
-        image: "shop",
+        image: "portal",
+        desc:"A  Jobs Portal Is A Job Portal For Recruiting And Apply For A Job",
 
 
         url: {
-            live: "https://adorable-fudge-1b9038.netlify.app/",
-            frontend: "https://github.com/Mkumar0802/ecommerce_client/",
-            backend: "https://github.com/Mkumar0802/ecommerce_server/",
+            live: "https://sparkling-banoffee-e4b546.netlify.app/",
+            frontend: "https://github.com/Mkumar0802/Job-portal_FE/",
+            backend: "https://github.com/Mkumar0802/Job_portal_BE/",
         },
 
         demoCredential: [

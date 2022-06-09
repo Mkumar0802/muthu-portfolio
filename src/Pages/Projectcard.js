@@ -15,7 +15,7 @@ import foodapp from "../assets/fooapp.png"
 import ticketbooking from "../assets/ticketbooking.png"
 import simple from "../assets/simple.png"
 
-import shop from "../assets/shop.png"
+import portal from "../assets/portal.png"
 import blog from "../assets/blog.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -26,7 +26,7 @@ const assertMap = {
     booking_system:ticketbooking,
     simple: simple,
     blog:blog,
-    shop:shop,
+    portal:portal,
     html,
     css,
     js,
