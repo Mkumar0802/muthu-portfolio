@@ -98,6 +98,7 @@ const projects = [
 
     {
         title: "Simple crud ",
+        desc: "Create,read,update,delete operation using backend  mongodb database ",
         built: ["html", "css", "react", "nodejs", "express", "mongodb", "tailwindcss"],
         image: "simple",
 
