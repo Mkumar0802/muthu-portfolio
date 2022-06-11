@@ -4,7 +4,8 @@ const AnimateCss = require('animated-tailwindcss')
 
 module.exports = AnimateCss(
   {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx.html}'],
+  
   theme: {
     extend: {
 
@@ -12,6 +13,7 @@ module.exports = AnimateCss(
         wiggle: 'wiggle 1s ease-in infinite',
         cap: 'cap 1s ease-in infinite',
         iron: 'iron 1s ease-out infinite',
+        bounce:'bounce 1s  infinite'
       }
     },
     keyframes: {
@@ -52,7 +54,7 @@ module.exports = AnimateCss(
       },
     },
     variants: {},
-    plugins: [],
+    plugins: [ require('flowbite/plugin')],
   }
 
 }

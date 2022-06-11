@@ -14,8 +14,7 @@ import tailwind from "../assets/tailwind.png"
 import Heading from './Heading'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
-
+import Tooltip from "@material-ui/core/Tooltip"
 
 
 function Skill() {
@@ -31,7 +30,7 @@ function Skill() {
 
 
 
-        <div data-aos="fade-up"  className=' flex space-x-10 md:space-x-48 justify-center'>
+        <div data-aos="fade-up" className=' flex space-x-10 md:space-x-48 justify-center'>
           <div  >
             <div className='px-3'>
               <h1 className='text-2xl  font-mono '>
@@ -42,20 +41,24 @@ function Skill() {
             <   div className='grid grid-cols-2'>
 
               <div className="grid-rows grid-flow-col  bg-white hover:bg-slate-300 w-12 h-12    md:w-20 md:h-20   md:flex-col  ">
-                <img src={html} alt="html" />
+                <Tooltip title="Html" placement="left-start">
+                  <img src={html} alt="html" />
+                </Tooltip>
+
+
               </div>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300     w-12 h-12    md:flex-col md:w-20 md:h-20 '>
-                <img src={css} alt="css" />
+              <Tooltip title="Css" placement="right-start"><img src={css} alt="css" /></Tooltip>   
               </div>
               <div className='grid-rows grid-flow-col  bg-white hover:bg-slate-300  w-12 h-12    md:flex-col md:w-20 md:h-20'>
-                <img src={js} alt="js" />
+              <Tooltip title="Javascript" placement="left-start"><img src={js} alt="js" /></Tooltip>  
               </div>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300  w-12 h-12   md:flex-col md:w-20 md:h-20'>
                 <img src={boot} alt="boot" />
               </div>
 
               <div className='grid-rows grid-flow-col  bg-white hover:bg-slate-300     w-12 h-12    md:flex-col md:w-20 md:h-20'>
-                <img src={react} alt="react" />
+              <Tooltip title="React" placement="left-start"><img src={react} alt="react" /></Tooltip>  
               </div>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300   w-12 h-12    md:flex-col md:w-20 md:h-20 pt-5'>
                 <img src={tailwind} alt="tailwind" />
@@ -72,7 +75,7 @@ function Skill() {
             </div>
             <div className='grid grid-cols-2'>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300    w-12 h-12     md:flex-col md:w-20 md:h-20'>
-                <img src={node} alt="node" />
+           <img src={node} alt="node" />
               </div>
 
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300    w-12 h-12  md:flex-col md:w-20 md:h-20'>

@@ -3,13 +3,13 @@ import SocialLinks from "../components/SocialLinks";
 
 
 function Footer() {
-    
+
 
     return (
         <div className="relative">
-            <div   className="bg-cyan-500 text-white py-20 text-center">
+            <div className="bg-cyan-500 text-white py-20 text-center">
                 <h2 className="text-3xl md:text-5xl mb-3">Want to connect?</h2>
-                <div    className="my-5 md:text-xl ">
+                <div className="my-5 md:text-xl  ">
                     <p>
                         Drop me an email at<a href="mailto:https://mkumar0802@gmail.com" target="_blank" rel="noreferrer"> <span className="underline underline-offset-4">mkumar0802@gmail.com</span></a> and let's talk some more!
                     </p>
@@ -20,15 +20,18 @@ function Footer() {
 
                 </div>
                 <SocialLinks alignment="center" />
-                <p>
-                    Made by Muthukumar
-                </p>
-                <p>
-                    Using React,Tailwind CSS
-                </p>
-                <p>
-                    All right reserved@{(new Date().getFullYear())}
-                </p>
+                <div className="p-2">
+                    <p>
+                        Made by Muthukumar
+                    </p>
+                    <p>
+                        Using React,Tailwind CSS
+                    </p>
+                    <p>
+                        All right reserved@{(new Date().getFullYear())}
+                    </p>
+                </div>
+
             </div>
         </div>
     )
