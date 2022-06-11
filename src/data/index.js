@@ -91,7 +91,28 @@ const projects = [
         ],
 },
 
+// {
 
+//     title: "Hotel Booking",
+//         built: ["html", "css", "react", "mongodb", "tailwindcss"],
+//         image: "hotel",
+//         desc:"Frondend UI designed react tailwind css ",
+
+
+//         url: {
+//             live: "https://jazzy-frangipane-b59c08.netlify.app",
+//             frontend: "https://github.com/Mkumar0802/Hotel-Boking-UI",
+            
+//         },
+
+//         demoCredential: [
+//             {
+//                 email: "userdemo@gmail.com",
+//                 password: "12345",
+//             }
+
+//         ],
+// },
 
 
 

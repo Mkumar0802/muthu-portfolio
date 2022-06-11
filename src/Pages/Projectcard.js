@@ -14,7 +14,7 @@ import tailwindcss from "../assets/tailwind.png"
 import foodapp from "../assets/fooapp.png"
 import ticketbooking from "../assets/ticketbooking.png"
 import simple from "../assets/simple.png"
-
+// import hotel from "../assets/hotel.png"
 import portal from "../assets/portal.png"
 import blog from "../assets/blog.png"
 import AOS from 'aos';
@@ -27,6 +27,7 @@ const assertMap = {
     simple: simple,
     blog:blog,
     portal:portal,
+    // hotel:hotel,
     html,
     css,
     js,
