@@ -16,11 +16,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Tooltip from "@material-ui/core/Tooltip"
 
-
 function Skill() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, [])
+
+
+
 
   return (
     <div className="my-28 flex justify-evenly items-center flex-col scroll-mt-20 ">
@@ -48,21 +50,23 @@ function Skill() {
 
               </div>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300     w-12 h-12    md:flex-col md:w-20 md:h-20 '>
-              <Tooltip title="Css" placement="right-start"><img src={css} alt="css" /></Tooltip>   
+                <Tooltip title="Css" placement="right-start"><img src={css} alt="css" /></Tooltip>
               </div>
               <div className='grid-rows grid-flow-col  bg-white hover:bg-slate-300  w-12 h-12    md:flex-col md:w-20 md:h-20'>
-              <Tooltip title="Javascript" placement="left-start"><img src={js} alt="js" /></Tooltip>  
+                <Tooltip title="Javascript" placement="left-start"><img src={js} alt="js" /></Tooltip>
               </div>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300  w-12 h-12   md:flex-col md:w-20 md:h-20'>
                 <img src={boot} alt="boot" />
               </div>
 
               <div className='grid-rows grid-flow-col  bg-white hover:bg-slate-300     w-12 h-12    md:flex-col md:w-20 md:h-20'>
-              <Tooltip title="React" placement="left-start"><img src={react} alt="react" /></Tooltip>  
+                <Tooltip title="React" placement="left-start"><img src={react} alt="react" /></Tooltip>
               </div>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300   w-12 h-12    md:flex-col md:w-20 md:h-20 pt-5'>
                 <img src={tailwind} alt="tailwind" />
               </div>
+            
+                
             </div>
           </div>
 
@@ -75,7 +79,7 @@ function Skill() {
             </div>
             <div className='grid grid-cols-2'>
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300    w-12 h-12     md:flex-col md:w-20 md:h-20'>
-           <img src={node} alt="node" />
+                <img src={node} alt="node" />
               </div>
 
               <div className='grid-rows grid-flow-col bg-white hover:bg-slate-300    w-12 h-12  md:flex-col md:w-20 md:h-20'>

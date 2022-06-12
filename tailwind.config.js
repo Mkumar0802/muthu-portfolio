@@ -13,7 +13,7 @@ module.exports = AnimateCss(
         wiggle: 'wiggle 1s ease-in infinite',
         cap: 'cap 1s ease-in infinite',
         iron: 'iron 1s ease-out infinite',
-        bounce:'bounce 1s  infinite'
+        bounce:'bounce 3s  infinite'
       }
     },
     keyframes: {

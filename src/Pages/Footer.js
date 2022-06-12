@@ -20,14 +20,14 @@ function Footer() {
 
                 </div>
                 <SocialLinks alignment="center" />
-                <div className="p-2">
-                    <p>
+                <div className="p-3">
+                    <p className="py-2">
                         Made by Muthukumar
                     </p>
-                    <p>
+                    <p className="py-2">
                         Using React,Tailwind CSS
                     </p>
-                    <p>
+                    <p className="py-2">
                         All right reserved@{(new Date().getFullYear())}
                     </p>
                 </div>
