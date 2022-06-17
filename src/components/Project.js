@@ -3,6 +3,7 @@ import { projects } from '../data'
 import ProjectCard from '../Pages/Projectcard';
 import Heading from './Heading';
 
+
 function Projects() {
 
 
@@ -27,6 +28,7 @@ function Projects() {
                     <ProjectCard key={index} project={project} ltr={index % 2 === 1} />
                 ))}
             </div>
+              
         </div>
     );
 }

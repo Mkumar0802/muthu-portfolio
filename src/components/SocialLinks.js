@@ -10,8 +10,11 @@ function SocialLinks({ alignment = 'start' }) {
                     <a href="https://github.com/Mkumar0802/" target="_blank" rel="noreferrer" className="mr-3 text-3xl md:text-5xl hover:text-black">
                         <ion-icon name="logo-github"></ion-icon>
                     </a>
-                    <a href="https://www.linkedin.com/in/muthu-kumar-k-1011453a/" target="_blank" rel="noreferrer" className="mr-3 text-3xl md:text-5xl hover:text-blue-500">
-                        <ion-icon name="logo-linkedin"></ion-icon>
+                    <a href="https://www.linkedin.com/in/muthu-kumar-k-1011453a/" target="_blank" rel="noreferrer" className="px-2 mr-3 text-3xl md:text-5xl hover:text-blue-500">
+                        <ion-icon name="logo-linkedin"></ion-icon> 
+                    </a>
+                    <a href="https://wa.me/+919566420177/" target="_blank" rel="noreferrer" className=" mr-3 text-3xl md:text-5xl hover:text-green-500">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
                     </a>
                 </div>
 
