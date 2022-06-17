@@ -11,23 +11,19 @@ import mysql from "../assets/mysql.png"
 // import boot from "../assets/boot.png"
 import express from "../assets/express.png"
 import tailwindcss from "../assets/tailwind.png"
-import foodapp from "../assets/fooapp.png"
-import ticketbooking from "../assets/ticketbooking.png"
+import ecommerce from "../assets/shop.png"
+import hotel from "../assets/hotel.png"
 import simple from "../assets/simple.png"
-// import hotel from "../assets/hotel.png"
-import portal from "../assets/portal.png"
-import blog from "../assets/blog.png"
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
 const assertMap = {
-    food_ordering: foodapp,
-    booking_system:ticketbooking,
-    simple: simple,
-    blog:blog,
-    portal:portal,
-    // hotel:hotel,
+    
+    hotel:hotel,
+    simple:simple,
+    shop:ecommerce,
     html,
     css,
     js,
@@ -108,12 +104,7 @@ const ProjectCard = ({ project }) => {
                     Client
                     <span className="text-xl"><ion-icon name="logo-github"></ion-icon></span>
                 </Button>
-                <Button link={url.backend}>
-                    Server
-                    <span className="text-xl"><ion-icon name="logo-github"></ion-icon></span>
-                    
-                </Button>
-               
+                
 
 
             </div>
