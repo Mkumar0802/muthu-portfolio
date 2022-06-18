@@ -2,6 +2,7 @@
 import { projects } from '../data'
 import ProjectCard from '../Pages/Projectcard';
 import Heading from './Heading';
+import FrontendProjects from './FrontendProject';
 
 
 function Projects() {
@@ -29,6 +30,7 @@ function Projects() {
                 ))}
             </div>
               
+           < FrontendProjects/>   
         </div>
     );
 }
