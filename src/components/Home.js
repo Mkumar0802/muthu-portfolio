@@ -5,7 +5,7 @@ import About from './About';
 import Footer from '../Pages/Footer';
 import Contact from './Contact';
 import Projects from './Project';
-import FrondentProject from './FrontendProject';
+
 
 function Home() {
     return (
@@ -15,7 +15,6 @@ function Home() {
                 <About />
                 <Skill />
                 <Projects /> 
-                <FrondentProject/>
                 <Contact />
                 <Footer />
 
