@@ -17,7 +17,7 @@ function About() {
 
 
     return (
-        <div className="my-20 flex justify-evenly items-center flex-col scroll-mt-20 static ">
+        <div className="my-20 flex justify-evenly items-center flex-col scroll-mt-20 static px-3  ">
             <div className="my-6 flex justify-evenly items-center flex-col scroll-mt-20">
                 <Heading title="About Me" />
             </div>
@@ -30,7 +30,7 @@ function About() {
 
                     </div>
                     <div className="">
-                        <p className="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 py-12 px-12  md:text-2xl  text-xl  font-serif">
+                        <p className="text-slate-800  p-4 max-w-sm   rounded-lg border shadow-xl  bg-slate-50  hover:shadow-2xl  shadow-cyan-50  hover:shadow-cyan-100 md:text-2xl  text-xl  font-serif mt-10  xl:mt-0 px-5 ">
                             I describe myself as someone persistent, and a quick learner by using simple and scalable solutions. I enjoy creating user experience design, interfaces, web development, and mobile responsive.
                         </p>
                     </div>
@@ -44,9 +44,9 @@ function About() {
 
                 <Heading title="Education" />
             </div>
-            <div data-aos="fade-up" className="flex justify-around items-center flex-col md:flex-row  ">
+            <div data-aos="fade-up" className="flex justify-around items-center flex-col md:flex-row px-3  ">
                 <div class="flex justify-center  py-8 md:px-5 hover:animate-iron">
-                    <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
+                    <div class="text-slate-800  p-4 max-w-sm bg-slate-50 rounded-lg border shadow-xl   hover:shadow-2xl  shadow-cyan-50  hover:shadow-cyan-100 md:text-2xl  text-xl  font-serif mt-10  xl:mt-0 px-5 ">
                         <a href="https://www.guvi.in/" target="_blank" rel="noreferrer">
                             <img class="rounded-t-lg pl-4 h-20 w-20" src={card1} alt="" />
                         </a>
@@ -68,7 +68,7 @@ function About() {
 
 
                 <div class="flex justify-center py-8 md:px-5 hover:animate-iron">
-                    <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400">
+                    <div class="text-slate-800  p-4 max-w-sm bg-slate-50 rounded-lg border shadow-xl   hover:shadow-2xl  shadow-cyan-50  hover:shadow-cyan-100 md:text-2xl  text-xl  font-serif mt-10  xl:mt-0 px-5">
                         <a href="https://www.mookambigai.ac.in/" target="_blank" rel="noreferrer">
                             <img class="rounded-t-lg pl-2 h-20 w-20" src={Logo} alt="" />
                         </a>
@@ -86,7 +86,7 @@ function About() {
                     </div>
                 </div>
                 <div class="flex justify-center py-8 md:px-5  hover:animate-iron">
-                    <div class="rounded-lg shadow-xl bg-slate-200 max-w-sm hover:bg-slate-400 ">
+                    <div class="text-slate-800  p-4 max-w-sm bg-slate-50 rounded-lg border shadow-xl   hover:shadow-2xl  shadow-cyan-50  hover:shadow-cyan-100 md:text-2xl  text-xl  font-serif mt-10  xl:mt-0 px-5">
                         <a href="http://stmaryshrsecschool.org/" target="_blank" rel="noreferrer">
                             <img class="rounded-t-lg pl-2 h-20 w-20 pt-2" src={Logo1} alt="" />
                         </a>

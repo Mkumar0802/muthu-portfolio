@@ -23,13 +23,13 @@ function Main() {
                             <SocialLinks />
                         </div>
                     </div>
-                   
-                        <div className="lg:w-1/2 w-full lg:h-full h-1/2 flex justify-center items-center ] ">
-                            <div className="w-60 h-60 md:w-80 md:h-80 lg:w-3/6 max-h-full max-w-full lg:h-auto overflow-hidden  flex justify-center animate__animated animate__flipInY animate__fast">
-                                <img src={portfolioImage} alt="muthukumar" />
-                            </div>
+
+                    <div className="lg:w-1/2 w-full lg:h-full h-1/2 flex justify-center items-center ] ">
+                        <div className="w-60 h-60 md:w-80 md:h-80 lg:w-3/6 max-h-full max-w-full lg:h-auto overflow-hidden  flex justify-center animate__animated animate__flipInY animate__fast">
+                            <img src={portfolioImage} alt="muthukumar" />
                         </div>
-                    
+                    </div>
+
 
                 </div>
 
@@ -40,7 +40,12 @@ function Main() {
                     </svg>
                 </div>
             </div>
-
+            <div>
+                <a href="https://wa.me/+919566420177" target="_blank" rel="noreferrer" className='p-1 bg-green-600 rounded-xl xl:text-3xl  text-2xl text-white fixed right-8 bottom-5  animate-tada animate-infinite hidden xl:block '><ion-icon name="logo-whatsapp"></ion-icon> </a>
+            </div>
+            <div>
+                <a href="tel:+919566420177" target="_blank" rel="noreferrer" className='p-1 bg-blue-600 rounded-xl xl:text-3xl text-2xl text-white fixed right-8 bottom-20  animate-tada animate-infinite hidden xl:block '><ion-icon name="call-outline"></ion-icon> </a>
+            </div>
 
         </div>
 
